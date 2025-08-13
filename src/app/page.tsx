@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-zinc-900">
+    <div className="min-h-screen flex items-center justify-center bg-[url('/wave.gif')] bg-cover bg-center">
 	    <div className="flex items-center gap-8">
 		    <Image
 			    src={"/alone.png"}
@@ -13,7 +13,7 @@ export default function Home() {
 		    <div className="flex flex-col gap-4">
 			    <div>
 				    <h2 className="font-bold text-3xl">nerdium</h2>
-				    <p className="italic">computer engineer, game developer, and dead mall enthusiast</p>
+				    <p className="italic">computer engineer, game developer, dead mall enthusiast</p>
 			    </div>
 			    <dl className="grid grid-cols-[auto_1fr] gap-x-4">
 			        <dt className="font-semibold">email</dt>
