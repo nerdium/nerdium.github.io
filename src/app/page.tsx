@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-[url('/wave.gif')] bg-cover bg-center [text-shadow:_2px_2px_4px_rgba(0,0,0,0.5)]">
-	    <div className="flex items-center gap-8">
+	    <div className="flex items-center gap-8 bg-black/25 p-4 rounded-lg shadow-lg backdrop-blur-md">
 		    <Image
 			    src={"/alone.png"}
 			    alt={"long lost doggo"}
