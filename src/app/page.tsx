@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[url('/wave.gif')] bg-cover bg-center">
+    <div className="min-h-screen flex items-center justify-center bg-[url('/wave.gif')] bg-cover bg-center [text-shadow:_2px_2px_4px_rgba(0,0,0,0.5)]">
 	    <div className="flex items-center gap-8">
 		    <Image
 			    src={"/alone.png"}
 			    alt={"long lost doggo"}
 			    width={150} height={150}
-			    className="rounded-lg object-cover"
+			    className="rounded-lg object-cover shadow-lg"
 		    />
 		    <div className="flex flex-col gap-4">
 			    <div>
